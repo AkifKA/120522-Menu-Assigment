@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    text-align: center;
+    margin:42vh auto;
+}
+
+nav h1{
+    color: blueviolet;
+}
+nav ul li{
+   list-style-type: none;
+   display: inline-block; 
+   padding:1rem;
+   background-color: orange;
+   border-radius: 1rem;
+   margin-top: 1rem;
+}
+
+nav ul li:hover{
+    color:white;
+    background-color: red;
+    color:white;
+    cursor:pointer
+}
+
+nav h1:hover{
+    color:orangered;
+}
